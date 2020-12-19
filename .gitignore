@@ -1,0 +1,10 @@
+# Node
+node_modules
+
+# Build
+bundles
+dist
+docs
+
+# Jest
+coverage
