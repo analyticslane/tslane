@@ -1,9 +1,19 @@
 const path = require('path');
+const webpack = require('webpack');
 
 const package = require('./package.json');
 const library = package.name;
 const filename = `${package.name}_${package.version}.js`;
 const mapname = `${package.name}_map_${package.version}.js`;
+
+const commitHash = require('child_process')
+  .execSync('git rev-parse --short HEAD')
+  .toString();
+
+const definePlugin = new webpack.DefinePlugin({
+  VERSION: JSON.stringify(package.version),
+  HASH: JSON.stringify(commitHash)
+});
 
 module.exports = [{
     name: 'map',
@@ -47,5 +57,6 @@ module.exports = [{
         filename: filename,
         library: library,
         path: path.resolve(__dirname, 'bundles'),
-    }
+    },
+    plugins: [definePlugin]
 }];
