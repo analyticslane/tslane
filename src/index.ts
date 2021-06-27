@@ -3,7 +3,7 @@ declare const HASH: string;
 
 export const version = {
   version: VERSION,
-  build: HASH
+  build: HASH,
 };
 
 export * as array from './array';
