@@ -25,6 +25,11 @@ La plantilla se ha actualizado a la versión 1.1 con la entrada
 en la que se explica a automatiza la inclusión de valores como puede ser el
 número de versión, el hash o la fecha.
 
+## Creación de un archivo de tipos 
+
+En la versión 1.2 se ha incluido la opción de [crear un archivo de tipos](https://www.analyticslane.com/2021/06/16/creacion-de-un-unico-archivo-de-tipos-de-una-libreria-typescript/)
+con el plugin de Webpack `npm-dts-webpack-plugin`.
+
 ## Descargo de responsabilidad
 
 Copyright (C) 2020-2021 Daniel Rodríguez Pérez
