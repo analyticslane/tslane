@@ -21,7 +21,7 @@ export function sum(arr: number[]): number {
 }
 
 /**
- * Mean the elements of an array
+ * Mean the elements of an array: $$\mean$$ where $n$ is the number of elements and $x$ the values
  *
  * @param arr - the input array
  *

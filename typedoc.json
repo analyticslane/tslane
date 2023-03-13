@@ -1,0 +1,14 @@
+{
+  "katex": {
+    "version": "0.11.1",
+    "options": {
+      "delimiters": [
+        {"left": "$$", "right": "$$", "display": true},
+        {"left": "$", "right": "$", "display": false}
+      ],
+      "macros": {
+        "\\mean": "\\mu = \\frac{1}{n} \\sum_{i=1}^n x_i"
+      }
+    }
+  }
+}

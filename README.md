@@ -30,6 +30,11 @@ número de versión, el hash o la fecha.
 En la versión 1.2 se ha incluido la opción de [crear un archivo de tipos](https://www.analyticslane.com/2021/06/16/creacion-de-un-unico-archivo-de-tipos-de-una-libreria-typescript/)
 con el plugin de Webpack `npm-dts-webpack-plugin`.
 
+## Incluir fórmulas en la documentación de TSDoc
+
+En la versión 1.3 se ha incluido el plugin `typedoc-plugin-katex ` para poder
+[agregar fórmulas con LaTeX en la documentación de TSDoc.](https://www.analyticslane.com/2023/03/08/incluir-formulas-en-la-documentacion-de-tsdoc/)
+
 ## Descargo de responsabilidad
 
 Copyright (C) 2020-2021 Daniel Rodríguez Pérez
