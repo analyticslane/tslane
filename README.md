@@ -35,9 +35,16 @@ con el plugin de Webpack `npm-dts-webpack-plugin`.
 En la versión 1.3 se ha incluido el plugin `typedoc-plugin-katex ` para poder
 [agregar fórmulas con LaTeX en la documentación de TSDoc.](https://www.analyticslane.com/2023/03/08/incluir-formulas-en-la-documentacion-de-tsdoc/)
 
+## Empaquetar una librería TypeScript para npm
+
+La versión 1.4 actualiza las dependencias y añade un script automatizado
+que [empaqueta la librería TypeScript](https://www.analyticslane.com/2025/03/05/como-empaquetar-una-libreria-typescript-para-npm-y-reutilizarla-en-otros-proyectos/),
+facilitando su distribución a través de npm y su reutilización en múltiples
+proyectos.
+
 ## Descargo de responsabilidad
 
-Copyright (C) 2020-2021 Daniel Rodríguez Pérez
+Copyright (C) 2020-2025 Daniel Rodríguez Pérez
 
 Este programa es software libre: usted puede redistribuirlo y/o modificarlo
 conforme a los términos de la Licencia Pública General de GNU publicada por

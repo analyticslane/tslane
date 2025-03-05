@@ -20,7 +20,7 @@ const definePlugin = new webpack.DefinePlugin({
 
 module.exports = [{
   name: 'map',
-  entry: './src/index.ts',
+  entry: './src/index-bundle.ts',
   devtool: 'inline-source-map',
   mode: 'production',
   module: {
@@ -42,7 +42,7 @@ module.exports = [{
   }
 }, {
   name: 'production',
-  entry: './src/index.ts',
+  entry: './src/index-bundle.ts',
   mode: 'production',
   module: {
     rules: [
